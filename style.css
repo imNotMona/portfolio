@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+    .project img {
+        width: 90%;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography & layout */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    max-width: 680px;
+    margin: 40px auto;
+    padding: 0 16px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #333;
+    background-color: #fff;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    line-height: 1.25;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+/* Links & buttons */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 0.95rem;
+}
+
+/* Projects */
+.project img {
+    width: 100%;
+    max-width: 100%;
+    margin: 12px 0;
+}
