@@ -18,7 +18,7 @@ body {
     line-height: 1.6;
     font-size: 18px;
     color: #333;
-    background-color: #fff;
+    background-color: #F5F0F0;
 }
 
 section {
@@ -60,4 +60,19 @@ a:hover {
     width: 100%;
     max-width: 100%;
     margin: 12px 0;
+}
+
+/* Header */
+header {
+  margin-bottom: 48px;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  font-size: 0.95rem;
+  margin: 6.7%;
 }
