@@ -11,19 +11,56 @@
 <body class="preload">
     <div data-include="header.html"></div>
 <!-- Projects Section -->
-    <section id="projectsShowcase">
-        <h1>Projects</h1>
-        <p>This is some stuff I worked on</p>
-    </section>
-    <section>
-        <h2>monaOS - linux based operating system</h2>
-        <p> 
-            I'm interested in linux, so I went
-            through all the motions of "Linux From Scratch" to get a better understanding.
-            I made this in the operating systems club at the university of minnesota. I recently uploaded it to my 
-            git page. You can format it with rufus to make a bootable USB. 
-        </p>
-    </section>
+<section id="projectsShowcase">
+    <h1>Projects</h1>
+    <p>
+        You can find more of my work on
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>.
+    </p>
+    <br>
+
+    <div class="project-list">
+        <article class="project">
+            <h2>custom linux build</h2>
+            <p class="project-meta">Linux-based operating system</p>
+            <p>
+                I am building a custom Linux-based operating system by following
+                <em>Linux From Scratch</em> to better understand kernels, bootloaders,
+                and system initialization. I'm fixing up my terribly old laptop from middle
+                school with this.
+            </p>
+            <p>
+                The OS will be available on my GitHub and can be flashed to a bootable USB
+                using tools like Rufus.
+            </p>
+            <!-- <a class="btn" href="https://github.com/yourusername/monaOS" target="_blank">
+                View on GitHub →
+            </a> -->
+            <p>I'm currently working on this</p>
+        </article>
+        <br>
+        <article class="project">
+            <h2>Explicit Free-List Memory Allocator</h2>
+            <p class="project-meta">C · Systems Programming · Memory Management</p>
+
+            <p>
+                I implemented a custom dynamic memory allocator in C using an explicit
+                free-list design. The allocator manages a manually mapped heap using
+                <code>mmap</code> and maintains separate doubly linked lists for available
+                and allocated memory blocks.
+            </p>
+            <p>
+                This project deepened my understanding of low-level memory layout,
+                pointer arithmetic, alignment, and the trade-offs involved in allocator
+                design.
+            </p>
+            <a class="btn" href="https://github.com/imNotMona/machineArchitecture-proj4/tree/master" target="_blank">
+                View on GitHub →
+            </a>
+        </article>
+    </div>
+</section>
+
     <div data-include="contactFooter.html"></div>
     <script src="script.js"></script>
     <script src="include.js"></script>

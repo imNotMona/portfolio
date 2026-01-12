@@ -19,3 +19,23 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   document.body.classList.remove("preload");
 });
+
+// RESUME SCRIPT
+
+const openBtn = document.getElementById('openResumeBtn');
+const modal = document.getElementById('resumeModal');
+const closeBtn = document.getElementById('closeModal');
+
+openBtn.addEventListener('click', () => {
+    modal.classList.add('show'); 
+});
+
+closeBtn.addEventListener('click', () => {
+    modal.classList.remove('show'); 
+});
+
+window.addEventListener('click', (e) => {
+    if (e.target === modal) {
+        modal.classList.remove('show');
+    }
+})

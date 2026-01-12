@@ -7,13 +7,47 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class = "preload">
+
+<body class="preload">
     <div data-include="header.html"></div>
-    <!-- Hero Section -->
-    <section id="hero">
-        <h1>Hi, I'm Aditya</h1>
-        <p>Student & Programmer</p>
+<!-- Projects Section -->
+    <section id="aboutMe">
+        <h1>About Me</h1>
+        <p> 
+            I'm currently a student at the University of Minnesota - Twin Cities aiming
+            for a bachelors in science for computer science.                                                                                                    
+        </p>
+        <br>
+        <p>I prefer simple solutions, readable code, and interfaces that
+        work well without crazy complex spaghetti code</p>
+        <br>
+        <p> 
+            I already have some industry experience under my belt, and I aim to add more.                                                                                                  
+        </p>
+        <br>
+        <h3>Other Tid-Bits</h3>
+        <p>
+            I'm interested in cybersecurity. I am pursuing this point further during my college 
+            career. I've taught myself how to use Krita for digital art. I also enjoy dark fantasy
+            novels and games. 
+        </p>
     </section>
+    <!-- RESUME -->
+    <section id="resumeSection">
+        <button id="openResumeBtn" class="resume-btn">View Resume &rarr;</button>
+    </section>
+    <div id="resumeModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button id="closeModal" class="close-btn">&times;</button>
+            <a href="resume.pdf" download class="download-btn">
+                &#x2B07; Download
+            </a>
+        </div>
+        <iframe src="resume.pdf#zoom=75" class="resume-frame"></iframe>
+    </div>
+    </div>
+    <!-- END RESUME -->
     <div data-include="contactFooter.html"></div>
     <script src="script.js"></script>
     <script src="include.js"></script>
