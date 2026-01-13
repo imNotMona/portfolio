@@ -65,11 +65,35 @@ a:hover {
 /* Header */
 header {
     margin-bottom: 48px;
+    width: 100%;
 }
 
+.loadedHeader{
+    max-width:100%;
+}
+
+.site-header{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+/* brand */
+.brand{
+    /* margin-right: 50px; */
+}
+.brand p {
+    font-size: 40px;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 0.5px
+}
+
+/* Navigation */
 nav {
     display: flex;
-    gap: 16px;
+    justify-content: center;
+    gap: 24px;
 }
 
 nav a {
@@ -78,12 +102,10 @@ nav a {
 
 .contact-footer {
     font-size: 17px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100%;
     text-align: center;
     padding: 12px;
+    margin-top: 60px;
 }
 
 .preload {
